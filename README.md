@@ -6,7 +6,7 @@ This project provides a **REST API** to fetch weather information for a given **
 - Fetch weather information by **pincode** and **date**  
 - Store weather data in an **RDBMS** for future use  
 - Convert **pincode → latitude/longitude** using a geocoding API  
-- Fetch **latitude/longitude → weather data** from Open-Metro API  
+- Fetch **latitude/longitude → weather data** from Open-Meteo API  
 - Optimize API calls by retrieving previously stored results from the database  
 - REST API only (no UI) – testable via **Postman**  
 - Properly structured codebase with support for **unit tests (TDD)**  
@@ -33,10 +33,11 @@ This project provides a **REST API** to fetch weather information for a given **
 
 ## 🛠️ Tech Stack  
 - **Java / Spring Boot** – Backend framework  
-- **PostgreSQL / MySQL** – Database for storing weather data  
+- **PostgreSQL** – Database for storing weather data  
 - **OpenWeather API** – Weather data provider  
+- **Open-Meteo API** – Weather data provider  
 - **Geocoding API** – Convert pincode to latitude & longitude  
-- **Swagger/Postman** – API testing  
+- **Postman** – API testing  
 
 ## ⚙️ Setup & Installation  
 1. Clone the repository:  
