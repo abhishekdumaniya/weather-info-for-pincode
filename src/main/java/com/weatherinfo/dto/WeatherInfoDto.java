@@ -5,11 +5,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Setter
 @Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class WeatherRequest {
-    private String pincode;
-    private String date;
+public class WeatherInfoDto {
+    private Daily daily;
 }
+
+
