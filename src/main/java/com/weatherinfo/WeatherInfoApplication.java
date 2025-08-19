@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WeatherInfoApplication {
 
 	public static void main(String[] args) {
-
 		SpringApplication.run(WeatherInfoApplication.class, args);
-		System.out.println("Working");
 	}
 
 }
