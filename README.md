@@ -2,6 +2,9 @@
 
 This project provides a **REST API** to fetch weather information for a given **pincode** and **date**. The system is optimized to minimize unnecessary external API calls by caching results in a database.  
 
+## System Workflow
+<img width="1263" height="779" alt="Screenshot 2025-08-19 162255" src="https://github.com/user-attachments/assets/fda504c8-fa9d-45aa-b2cf-12b911033c9b" />
+
 ## 🚀 Features  
 - Fetch weather information by **pincode** and **date**  
 - Store weather data in an **RDBMS** for future use  
