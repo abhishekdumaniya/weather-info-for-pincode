@@ -15,7 +15,7 @@ This project provides a **REST API** to fetch weather information for a given **
 ```json
 {
   "pincode": "411014",
-  "for_date": "2020-10-15"
+  "date": "2020-10-15"
 }
 ```
 
@@ -62,7 +62,7 @@ POST /api/weather
 ```json
 {
   "pincode": "411014",
-  "for_date": "2020-10-15"
+  "date": "2020-10-15"
 }
 ```
 **Response:**  
