@@ -41,7 +41,7 @@ This project provides a **REST API** to fetch weather information for a given **
 ## ⚙️ Setup & Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/weather-info-for-pincode.git
+   git clone https://github.com/abhishekdumaniya/weather-info-for-pincode.git
    cd weather-info-for-pincode
    ```
 2. Configure database connection in `application.properties`.  
