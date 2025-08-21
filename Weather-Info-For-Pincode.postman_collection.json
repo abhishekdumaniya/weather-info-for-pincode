@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "8324e003-6cac-4566-8c64-a72cbe1b6b3f",
+		"name": "Weather-Info-For-Pincode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32892235"
+	},
+	"item": [
+		{
+			"name": "Invalid Request",
+			"item": [
+				{
+					"name": "empty-request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/weather",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"weather"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "invalid-dateformat",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pincode\" : \"560043\",\r\n    \"date\": \"18-07-2025\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/weather",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"weather"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "api/weather",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "pincode",
+						"value": "364001",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pincode\" : \"560043\",\r\n    \"date\": \"2025-03-03\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/weather",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"weather"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
